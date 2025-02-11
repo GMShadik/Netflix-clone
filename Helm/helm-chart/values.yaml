@@ -1,0 +1,9 @@
+replicas: 5
+image:
+  repository: daviddocker526/netflix-24
+  tag: latest
+service:
+  type: LoadBalancer
+  port: 80
+labels:
+  app: netflix-app
